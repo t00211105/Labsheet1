@@ -6,7 +6,7 @@ testing the functionality of the Animal class. This version of the driver is
 also to demonstrate the creation of an array of Animal objects*/
 
 
-import labsheet6.excercise4.Animal;
+import W3.labsheet6.excercise4.Animal;
 
 public class TestAnimal {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package W2.labsheet3.excercise1;
+package W2.Labsheet4.excercise1;
 
  public class Computer {
     private String manufacturer;

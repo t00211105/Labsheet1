@@ -1,6 +1,6 @@
 package W3.LabSheet5.exercise3;
 
-import LabSheet5.exercise3.Thermometer;
+import W3.LabSheet5.exercise3.Thermometer;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +14,7 @@ public class TestThermometer {
         Font font = new Font("monospaced", Font.PLAIN, 12);
         textArea.setFont(font);
 
-        LabSheet5.exercise3.Thermometer t1 = new LabSheet5.exercise3.Thermometer();
+        W3.LabSheet5.exercise3.Thermometer t1 = new W3.LabSheet5.exercise3.Thermometer();
 
         JOptionPane.showInputDialog(null,"Please enter the current temperature of the first thermometer:","",JOptionPane.INFORMATION_MESSAGE);
 
@@ -24,7 +24,7 @@ public class TestThermometer {
                 "\nFirst Thermometer\nCurrent temperature: "+ t1.getCurrentTemp() +
                 "\nMaximum temperature " + t1.getMaxTemp() + "\nMinimum temperature " + t1.getMinTemp();
 
-        LabSheet5.exercise3.Thermometer t2 = new LabSheet5.exercise3.Thermometer();
+        W3.LabSheet5.exercise3.Thermometer t2 = new W3.LabSheet5.exercise3.Thermometer();
 
         System.out.print(t2.getCurrentTemp());
         t2.setCurrentTemp(0);
@@ -32,7 +32,7 @@ public class TestThermometer {
                 "\nSecond Thermometer\nCurrent temperature: "+ t2.getCurrentTemp() +
                 "\nMaximum temperature " + t2.getMaxTemp() + "\nMinimum temperature " + t2.getMinTemp();
 
-        LabSheet5.exercise3.Thermometer t3 = new Thermometer();
+        W3.LabSheet5.exercise3.Thermometer t3 = new Thermometer();
 
         System.out.print(t3.getCurrentTemp());
         t3.setCurrentTemp(25);

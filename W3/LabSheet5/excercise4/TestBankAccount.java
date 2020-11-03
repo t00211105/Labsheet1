@@ -1,5 +1,5 @@
 package W3.LabSheet5.excercise4;
-import LabSheet5.excercise4.BankAccount;
+import W3.LabSheet5.excercise4.BankAccount;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,12 +15,12 @@ public class TestBankAccount {
         Font font = new Font("monospaced", Font.PLAIN, 12);
         textArea.setFont(font);
 
-        LabSheet5.excercise4.BankAccount b1 = new LabSheet5.excercise4.BankAccount();
+        W3.LabSheet5.excercise4.BankAccount b1 = new W3.LabSheet5.excercise4.BankAccount();
 
         output+="Calling  the no-argument Bank Account constructor. The first BankAccount object details are:\n\n " +
         "Owner: " + b1.getOwner() + " Account number: " + b1.getNumber() + " Interest Rate: " + b1.getInterestRate();
 
-        LabSheet5.excercise4.BankAccount b2 = new BankAccount();
+        W3.LabSheet5.excercise4.BankAccount b2 = new BankAccount();
         b2.setOwner("Richy Rich");
         b2.setNumber(2342343);
         b2.setInterestRate(0.5);

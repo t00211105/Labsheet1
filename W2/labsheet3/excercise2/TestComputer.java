@@ -1,6 +1,6 @@
 package W2.labsheet3.excercise2;
 
-import labsheet3.Computer;
+import W2.labsheet3.Computer;
 
 import javax.swing.*;
 
