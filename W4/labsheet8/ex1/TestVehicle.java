@@ -1,7 +1,7 @@
  package W4.labsheet8.ex1;
 
 //TestPerson.java
-/*This driver program tests out the classes Person and Student fully*/
+/*This driver program tests out the classes Person and Lecturer fully*/
 
 import com.sun.org.apache.bcel.internal.generic.BIPUSH;
 

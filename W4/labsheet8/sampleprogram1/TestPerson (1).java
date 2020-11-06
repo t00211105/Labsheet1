@@ -1,7 +1,7 @@
 package W4.labsheet8.sampleprogram1;
 
 //TestPerson.java
-/*This driver program tests out the classes Person and Student fully*/
+/*This driver program tests out the classes Person and Lecturer fully*/
 
 import javax.swing.*;
 import java.util.GregorianCalendar;
@@ -32,18 +32,18 @@ import java.util.GregorianCalendar;
         text += "\nValue of second person object is: " + person2;
 
 
-        text += "\n\nCalling the Student() constructor .....";
+        text += "\n\nCalling the Lecturer() constructor .....";
         Student student1 = new Student();
 
-        text += "\nValue of first Student object is:\n" + student1;
+        text += "\nValue of first Lecturer object is:\n" + student1;
 
-        text += "\n\nCalling the Student(String,String,GregorianCalendar,int,String) constructor using hard-coded values .....";
+        text += "\n\nCalling the Lecturer(String,String,GregorianCalendar,int,String) constructor using hard-coded values .....";
         Student student2 = new Student("Michael O' Connor","Ballybunion, Co. Kerry",
                            new GregorianCalendar(1996,4,12),425362,"Computing");
 
-        text += "\nValue of second Student object is:\n" + student2;
+        text += "\nValue of second Lecturer object is:\n" + student2;
 
-        JOptionPane.showMessageDialog(null,"*****Person and Student Class Tester*****\n\n" + text,"",
+        JOptionPane.showMessageDialog(null,"*****Person and Lecturer Class Tester*****\n\n" + text,"",
                                       JOptionPane.INFORMATION_MESSAGE);
         
         System.exit(0);

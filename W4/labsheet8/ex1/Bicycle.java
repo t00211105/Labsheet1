@@ -1,7 +1,7 @@
 package W4.labsheet8.ex1;
 
 //Person.java
-/*An instantiable Person class that acts as a superclass for the Student class. This version
+/*An instantiable Person class that acts as a superclass for the Lecturer class. This version
  * demonstrates the use of protected attributes and methods*/
 
 import java.util.Calendar;

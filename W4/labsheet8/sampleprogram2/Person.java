@@ -1,7 +1,7 @@
 package W4.labsheet8.sampleprogram2;
 
 //Person.java
-/*An instantiable Person class that acts as a superclass for the Student class*/
+/*An instantiable Person class that acts as a superclass for the Lecturer class*/
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;

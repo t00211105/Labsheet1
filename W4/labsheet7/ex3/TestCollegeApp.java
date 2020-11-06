@@ -1,7 +1,7 @@
 package W4.labsheet7.ex3;
 
 //TestCollegeApp.java
-/*A driver class to test out the functionality of the Institute, Student and Department
+/*A driver class to test out the functionality of the Institute, Lecturer and Department
 classes*/
 
 public class TestCollegeApp {

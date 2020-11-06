@@ -1,7 +1,7 @@
 package W4.labsheet8.sampleprogram1;
 
-//Student.java
-/*An instantiable Student class that inherits from a Person superclass*/
+//Lecturer.java
+/*An instantiable Lecturer class that inherits from a Person superclass*/
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -39,7 +39,7 @@ public class Student extends Person {
     }
 
     public String toString(){
-        String str = "Student Name: " + name + "\nStudent Address: " + address + "\nStudent Date of Birth: ";
+        String str = "Lecturer Name: " + name + "\nLecturer Address: " + address + "\nLecturer Date of Birth: ";
 
         if(dateOfBirth==null)
             str+="No date of birth specified";
@@ -47,7 +47,7 @@ public class Student extends Person {
             str+=dateOfBirth.get(Calendar.DATE) + "-" + dateOfBirth.get(Calendar.MONTH) +
                     "-" + dateOfBirth.get(Calendar.YEAR) ;
 
-        str+= "\nStudent ID: " + getId() + "\nStudent Department: " + getDept() + "\n";
+        str+= "\nLecturer ID: " + getId() + "\nLecturer Department: " + getDept() + "\n";
 
         return str;
     }

@@ -1,7 +1,7 @@
 package W4.labsheet7.ex3;
 
-//Student.java
-/*An instantiable Student class*/
+//Lecturer.java
+/*An instantiable Lecturer class*/
 
 public class Student {
 

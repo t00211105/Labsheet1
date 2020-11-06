@@ -1,7 +1,7 @@
 package W4.labsheet8.ex2;
 
-//Student.java
-/*An instantiable Student class that inherits from a Person superclass*/
+//Lecturer.java
+/*An instantiable Lecturer class that inherits from a Person superclass*/
 
 import java.util.Calendar;
 
